@@ -1,0 +1,18 @@
+{
+  "wallet": "YOUR_WALLET_ADDRESS",
+  "pools": [
+    {
+      "url": "stratum+ssl://YOUR_POOL:PORT",
+      "pass": "x",
+      "tls": true,
+      "worker": "rigsminer-worker"
+    }
+  ],
+  "cpu": {
+    "mode": "fast",
+    "large_pages": "auto"
+  },
+  "print_seconds": 1,
+  "retry_seconds": 3,
+  "idle_timeout_seconds": 120
+}
